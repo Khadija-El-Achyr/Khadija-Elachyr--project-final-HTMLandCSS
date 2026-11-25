@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./public/css/output.css">
 </head>
-<body>
-    <header>
-              
+<body class="bg-[#3D3B42] font-poppins">
+    <header class="bg-[#4b4951] flex items-center justify-between ">
+        <h1 class="font-extrabold text-5xl text-black">W<span class="">th</span>.<span class="text-[#FF8A3D]">U</span></h1>
+        <!-- <img src="./public/images/logo-site.png" alt="" width="130px" > -->
+        <nav class="flex gap-7 text-[#c6688e]">
+            <a class="hover:text-[#FF8A3D] hover:translate-x-0.5 text-[#FF8A3D]" href="./index.html">About Us</a>
+            <a class="hover:text-[#FF8A3D] hover:translate-x-0.5" href="./public/pages/parent.html">Parent Academy</a>
+            <a class="hover:text-[#FF8A3D] hover:translate-x-0.5" href="./public/pages/histoire.html">Beyond Appearences</a>
+            <a class="hover:text-[#FF8A3D] hover:translate-x-0.5" href="./public/pages/experience.html">Your Story</a>
+            <a class="hover:text-[#FF8A3D] hover:translate-x-0.5" href="./public/pages/espace-sos.html">Espace SOS</a>
+            <select class="hover:text-[#FF8A3D] bg-[#4b4951] hover:translate-x-0.5" name="" id="">
+                <option value="">english</option>
+                <option value="">Frensh</option>
+                <option value="">Espanol</option>
+                <option value="">Arabic</option>
+            </select>
+        </nav>
     </header>
 </body>
 </html>
+
+<!-- $ npx @tailwindcss/cli -i ./public/css/input.css -o ./public/css/output.css --watch -->
