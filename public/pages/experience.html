@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/output.css">
 </head>
+
 <body class="bg-[#d8d5d3] font-poppins">
-    <header class="flex justify-between  py-5 px-10">
-        <h1 class="font-bold text-2xl relative">Elle<h1 class="font-extrabold text-2xl text-[#e8588f] absolute left-13 top-10">Choisit</h1></h1>
+    <header class="flex justify-between  py-5 px-10 border-b-1 border-[#ccc9c8]">
+        <h1 class="font-bold text-2xl relative">Elle<h1
+                class="font-extrabold text-2xl text-[#e8588f] absolute left-13 top-10">Choisit</h1>
+        </h1>
         <input type="checkbox" id="menuCheckbox" class="hidden peer">
         <label for="menuCheckbox" id=""
             class="cursor-pointer peer-checked:[&_.menu-icon]:hidden peer-checked:[&_.close-icon]:block">
@@ -29,42 +33,55 @@
         </label>
         <nav
             class="flex gap-7 items-center font-semibold text-[#c6688e] max-sm:display-none max-sm:hidden peer-checked:flex max-sm:flex-col max-sm:bg-[#4b4951] max-sm:absolute max-sm:top-20 max-sm:w-full max-sm:right-0 max-sm:shadow-md max-sm:rounded-2xl max-sm:p-5">
-            <a class="hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1 hover:translate-x-0.5 " href="../../index.html">About Us</a>
-            <a class=" hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1  hover:translate-x-0.5" href="./parent.html">Parent Academy</a>
-            <a class="hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1 hover:translate-x-0.5" href="./histoire.html">Beyond
+            <a class="hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1 hover:translate-x-0.5 "
+                href="../../index.html">About Us</a>
+            <a class=" hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1  hover:translate-x-0.5"
+                href="./parent.html">Parent Academy</a>
+            <a class="hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1 hover:translate-x-0.5"
+                href="./histoire.html">Beyond
                 Appearences</a>
-            <a class=" bg-[#c6688e] text-white rounded-2xl px-3 py-1 hover:translate-x-0.5" href="./experience.html">Your Story</a>
+            <a class=" bg-[#c6688e] text-white rounded-2xl px-3 py-1 hover:translate-x-0.5"
+                href="./experience.html">Your Story</a>
             <a class="hover:text-red-600 hover:font-extrabold hover:text-xl" href="./espace-sos.html">Espace SOS</a>
         </nav>
     </header>
-    <main>
-        <section class="p-5 flex justify-between">
+    <main class="flex flex-col items-center gap-3 max-sm:p-3">
+        <section class="p-5 flex ">
             <span></span>
-                <h1 class="font-bold text-5xl text-[#3d3d42]">Votre histoire <span class="text-[#e8588f]"><i>compte.</i></span></h1>
-                <span></span>
+            <h1 class="font-bold text-5xl text-[#3d3d42]">Votre histoire <span
+                    class="text-[#e8588f]"><i>compte.</i></span></h1>
+            <span></span>
         </section>
-        <section>
-            
+        <section class=" text-white bg-[#cac6c3] gap-2 flex flex-col  border-2 border-[#e0dbd9] rounded-lg shadow-2xl shadow-black py-5 px-4">
+                <label for="" class="font-bold ">Prénom ou pseudo (facultatif)</label>
+                <input type="text" class="bg-[#b1adab] rounded-[5px] border-1 border-[#e0dbd9]">
+                <label for="" class="font-bold ">Age au moment du mariage</label>
+                <input type="text" class="bg-[#b1adab] rounded-[5px] border-1 border-[#e0dbd9]">
+                <label for="" class="font-bold ">Votre histoire</label>
+                <textarea name="" id="" class="bg-[#b1adab] rounded-[5px] border-1 border-[#e0dbd9]" placeholder="Ecrire ici ce que vous souhaitez partager... "></textarea>
+                <label for="" class="font-bold ">Aujourd'hui, que diriez-vous aux autre filles ?</label>
+                <textarea name="" id="" class="bg-[#b1adab] rounded-[5px] border-1 border-[#e0dbd9]"></textarea>
+                <span class="flex gap-2">
+                    <input class="" type="checkbox">
+                    <p>J'accepte que mon histoire soit publié se facon anonyme.</p>
+                </span>
+                <button class="bg-[#e8588f] py-2 px-4 rounded-3xl font-semibold hover:bg-white hover:text-[#e8588f] ">Partager mon histoire</button>
         </section>
-    </main>
+    </main><br><br>
     <footer class="bg-[#3d3d42] flex max-sm:flex-col max-sm:gap-7 max-sm:items-center justify-around p-5">
         <div class="flex flex-col gap-4">
             <h1 class="text-[#f58a3c] font-extrabold">EXPLORE</h1>
             <nav class="flex flex-col gap-2 font-semibold text-amber-50">
-                <a class=""
-                    href="../../index.html">About Us</a>
-                <a class=""
-                    href="./parent.html">Parent Academy</a>
-                <a class=""
-                    href="./histoire.html">Beyond
+                <a class="" href="../../index.html">About Us</a>
+                <a class="" href="./parent.html">Parent Academy</a>
+                <a class="" href="./histoire.html">Beyond
                     Appearences</a>
-                <a class=""
-                    href="./experience.html">Your Story</a>
+                <a class="" href="./experience.html">Your Story</a>
             </nav>
         </div>
         <div class="flex flex-col gap-4 text-amber-50">
             <h1 class="text-[#f58a3c] font-extrabold">BESOIN D'AIDE</h1>
-            <div class="flex flex-col gap-2 font-semibold" >
+            <div class="flex flex-col gap-2 font-semibold">
                 <p class="text-2xl font-extrabold text-white">0800 00 11 22</p>
                 <p>ecoute@ellechoisit.ma</p>
                 <p>Gratuit.confidentiel.7j/7</p>
@@ -80,4 +97,5 @@
         </div>
     </footer>
 </body>
+
 </html>
