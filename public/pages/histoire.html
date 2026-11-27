@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/output.css">
 </head>
-<body class="bg-[#d8d5d3] font-poppins">
-    <header class="flex justify-between  py-5 px-10">
-        <h1 class="font-bold text-2xl relative">Elle<h1 class="font-extrabold text-2xl text-[#e8588f] absolute left-13 top-10">Choisit</h1></h1>
+
+<body class="font-poppins ">
+    <header class="flex justify-between  max-sm:relative py-5 px-10 bg-black opacity-90">
+        <h1 class="font-bold text-2xl relative text-amber-50">Elle<h1 class="font-extrabold text-2xl text-[#e8588f] absolute left-13 top-10">Choisit</h1></h1>
         <input type="checkbox" id="menuCheckbox" class="hidden peer">
         <label for="menuCheckbox" id=""
             class="cursor-pointer peer-checked:[&_.menu-icon]:hidden peer-checked:[&_.close-icon]:block">
@@ -30,33 +32,186 @@
         <nav
             class="flex gap-7 items-center font-semibold text-[#c6688e] max-sm:display-none max-sm:hidden peer-checked:flex max-sm:flex-col max-sm:bg-[#4b4951] max-sm:absolute max-sm:top-20 max-sm:w-full max-sm:right-0 max-sm:shadow-md max-sm:rounded-2xl max-sm:p-5">
             <a class="hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1 hover:translate-x-0.5 " href="../../index.html">About Us</a>
-            <a class=" hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1  hover:translate-x-0.5" href="./parent.html">Parent Academy</a>
-            <a class="bg-[#c6688e] text-white rounded-2xl px-3 py-1 hover:translate-x-0.5" href="./histoire.html">Beyond
+            <a class=" hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1 hover:translate-x-0.5 " href="./parent.html">Parent Academy</a>
+            <a class=" bg-[#c6688e] text-white rounded-2xl px-3 py-1  hover:translate-x-0.5" href="./histoire.html">Beyond
                 Appearences</a>
             <a class="hover:bg-[#c6688e] hover:text-white hover:rounded-2xl hover:px-3 hover:py-1 hover:translate-x-0.5" href="./experience.html">Your Story</a>
             <a class="hover:text-red-600 hover:font-extrabold hover:text-xl" href="./espace-sos.html">Espace SOS</a>
         </nav>
     </header>
-    <main>
+    <main class="bg-[url(/public/images/backround-image.png)] bg-cover bg-center w-full max-sm:h-[400vh] md:h-[380vh] bg-no-repeat relative" >
+        <!-- class="bg-[url(/public/images/backround-image.png)] bg-cover bg-center w-full h-[200vh] bg-no-repeat relative" -->
+        <div class="bg-black w-full h-full opacity-50"></div>
+        <section>
+            <div class="absolute top-0 md:grid md:grid-rows-2 md:grid-cols-2 p-5 gap-3 max-sm:flex max-sm:flex-col">
+                <div class="border-2 hover:border-4 rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800 ">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas1</h1>
+                    <p class="font-extralight text-white ">Amina : 13 ans, excellait en mathématiques et rêvait de devenir ingénieure. Lorsque la sécheresse
+                        a ruiné la récolte de son père, ce dernier a accepté de la marier à un commerçant de 45 ans pour
+                        éponger ses dettes. Contrainte d'abandonner l'école, Amina s'est retrouvée isolée dans un
+                        village lointain, réduite aux tâches ménagères. Incapable de supporter la perte de sa liberté,
+                        sa solitude et le poids d'une vie d'adulte imposée trop tôt, elle a sombré dans une profonde
+                        dépression. Un matin, on l'a retrouvée sans vie au bord du puits du village, son vieux cahier
+                        d'école serré contre elle.
+                    </p>
+                </div>
+                <div class="border-2 hover:border-4 rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas2</h1>
+                    <p class="font-extralight text-white">Nadia : 12 ans, a tenté de s'enfuir la veille de son mariage avec un homme trois fois plus âgé
+                        qu'elle. Rattrapée par ses frères, elle a été mariée de force dès le lendemain. Humiliée et
+                        traumatisée, elle a de nouveau essayé de regagner le domicile familial quelques semaines plus
+                        tard pour supplier sa mère de la protéger. Rejetée sur le pas de la porte par peur du scandale
+                        social, Nadia s'est retrouvée seule sur la route en pleine nuit. Désorientée et désespérée, elle
+                        a été mortellement fauchée par un camion en traversant la voie rapide.
+                    </p>
+                </div>
+                <div class="border-2 hover:border-4 rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas3</h1>
+                    <p class="font-extralight text-white">Amina Filali (Maroc, 2012) : Mariée de force à 16 ans à son violeur pour « sauver l'honneur »
+                        de sa famille selon l'article 475 du code pénal marocain de l'époque, elle s'est suicidée en
+                        ingérant de la mort-aux-rats après des mois de maltraitances. Son drame a provoqué une onde de
+                        choc nationale et mené à l'abrogation de cette loi en 2014.</p>
+                </div>
+                <div class="border-2 hover:border-4 rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas4</h1>
+                    <p class="font-extralight text-white">Rawan (Yémen, 2013) : Une fillette de 8 ans est décédée des suites d'hémorragies internes le soir
+                        même de sa nuit de noces avec un homme de 40 ans. Ce fait divers tragique a suscité une
+                        indignation internationale sur l'absence d'âge légal minimum dans certains pays.</p>
+                </div>
+                <div class="border-2 hover:border-4 rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas3</h1>
+                    <p class="font-extralight text-white">Amina Filali (Maroc, 2012) : Mariée de force à 16 ans à son violeur pour « sauver l'honneur »
+                        de sa famille selon l'article 475 du code pénal marocain de l'époque, elle s'est suicidée en
+                        ingérant de la mort-aux-rats après des mois de maltraitances. Son drame a provoqué une onde de
+                        choc nationale et mené à l'abrogation de cette loi en 2014.</p>
+                </div>
+                <div class="border-2 hover:border-4 rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas4</h1>
+                    <p class="font-extralight text-white">Rawan (Yémen, 2013) : Une fillette de 8 ans est décédée des suites d'hémorragies internes le soir
+                        même de sa nuit de noces avec un homme de 40 ans. Ce fait divers tragique a suscité une
+                        indignation internationale sur l'absence d'âge légal minimum dans certains pays.</p>
+                </div>
+                <div class="border-2 hover:border-4 rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas3</h1>
+                    <p class="font-extralight text-white">Amina Filali (Maroc, 2012) : Mariée de force à 16 ans à son violeur pour « sauver l'honneur »
+                        de sa famille selon l'article 475 du code pénal marocain de l'époque, elle s'est suicidée en
+                        ingérant de la mort-aux-rats après des mois de maltraitances. Son drame a provoqué une onde de
+                        choc nationale et mené à l'abrogation de cette loi en 2014.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas4</h1>
+                    <p class="font-extralight text-white">Rawan (Yémen, 2013) : Une fillette de 8 ans est décédée des suites d'hémorragies internes le soir
+                        même de sa nuit de noces avec un homme de 40 ans. Ce fait divers tragique a suscité une
+                        indignation internationale sur l'absence d'âge légal minimum dans certains pays.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800 ">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas1</h1>
+                    <p class="font-extralight text-white ">Amina : 13 ans, excellait en mathématiques et rêvait de devenir ingénieure. Lorsque la sécheresse
+                        a ruiné la récolte de son père, ce dernier a accepté de la marier à un commerçant de 45 ans pour
+                        éponger ses dettes. Contrainte d'abandonner l'école, Amina s'est retrouvée isolée dans un
+                        village lointain, réduite aux tâches ménagères. Incapable de supporter la perte de sa liberté,
+                        sa solitude et le poids d'une vie d'adulte imposée trop tôt, elle a sombré dans une profonde
+                        dépression. Un matin, on l'a retrouvée sans vie au bord du puits du village, son vieux cahier
+                        d'école serré contre elle.
+                    </p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas2</h1>
+                    <p class="font-extralight text-white">Nadia : 12 ans, a tenté de s'enfuir la veille de son mariage avec un homme trois fois plus âgé
+                        qu'elle. Rattrapée par ses frères, elle a été mariée de force dès le lendemain. Humiliée et
+                        traumatisée, elle a de nouveau essayé de regagner le domicile familial quelques semaines plus
+                        tard pour supplier sa mère de la protéger. Rejetée sur le pas de la porte par peur du scandale
+                        social, Nadia s'est retrouvée seule sur la route en pleine nuit. Désorientée et désespérée, elle
+                        a été mortellement fauchée par un camion en traversant la voie rapide.
+                    </p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas3</h1>
+                    <p class="font-extralight text-white">Amina Filali (Maroc, 2012) : Mariée de force à 16 ans à son violeur pour « sauver l'honneur »
+                        de sa famille selon l'article 475 du code pénal marocain de l'époque, elle s'est suicidée en
+                        ingérant de la mort-aux-rats après des mois de maltraitances. Son drame a provoqué une onde de
+                        choc nationale et mené à l'abrogation de cette loi en 2014.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas4</h1>
+                    <p class="font-extralight text-white">Rawan (Yémen, 2013) : Une fillette de 8 ans est décédée des suites d'hémorragies internes le soir
+                        même de sa nuit de noces avec un homme de 40 ans. Ce fait divers tragique a suscité une
+                        indignation internationale sur l'absence d'âge légal minimum dans certains pays.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas3</h1>
+                    <p class="font-extralight text-white">Amina Filali (Maroc, 2012) : Mariée de force à 16 ans à son violeur pour « sauver l'honneur »
+                        de sa famille selon l'article 475 du code pénal marocain de l'époque, elle s'est suicidée en
+                        ingérant de la mort-aux-rats après des mois de maltraitances. Son drame a provoqué une onde de
+                        choc nationale et mené à l'abrogation de cette loi en 2014.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas4</h1>
+                    <p class="font-extralight text-white">Rawan (Yémen, 2013) : Une fillette de 8 ans est décédée des suites d'hémorragies internes le soir
+                        même de sa nuit de noces avec un homme de 40 ans. Ce fait divers tragique a suscité une
+                        indignation internationale sur l'absence d'âge légal minimum dans certains pays.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas3</h1>
+                    <p class="font-extralight text-white">Amina Filali (Maroc, 2012) : Mariée de force à 16 ans à son violeur pour « sauver l'honneur »
+                        de sa famille selon l'article 475 du code pénal marocain de l'époque, elle s'est suicidée en
+                        ingérant de la mort-aux-rats après des mois de maltraitances. Son drame a provoqué une onde de
+                        choc nationale et mené à l'abrogation de cette loi en 2014.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas4</h1>
+                    <p class="font-extralight text-white">Rawan (Yémen, 2013) : Une fillette de 8 ans est décédée des suites d'hémorragies internes le soir
+                        même de sa nuit de noces avec un homme de 40 ans. Ce fait divers tragique a suscité une
+                        indignation internationale sur l'absence d'âge légal minimum dans certains pays.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#e8588f] md:h-[40vh] bg-[#46283a] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#ee863b]">Cas3</h1>
+                    <p class="font-extralight text-white">Amina Filali (Maroc, 2012) : Mariée de force à 16 ans à son violeur pour « sauver l'honneur »
+                        de sa famille selon l'article 475 du code pénal marocain de l'époque, elle s'est suicidée en
+                        ingérant de la mort-aux-rats après des mois de maltraitances. Son drame a provoqué une onde de
+                        choc nationale et mené à l'abrogation de cette loi en 2014.</p>
+                </div>
+                <div class="border-2 hover:border-4 max-sm:hidden rounded-2xl border-[#ee863b] md:h-[40vh] bg-[#463223] opacity-50 flex flex-col p-3 gap-3 shadow-2xl shadow-red-800">
+                    <h1 class="font-extrabold text-[#e8588f]">Cas4</h1>
+                    <p class="font-extralight text-white">Rawan (Yémen, 2013) : Une fillette de 8 ans est décédée des suites d'hémorragies internes le soir
+                        même de sa nuit de noces avec un homme de 40 ans. Ce fait divers tragique a suscité une
+                        indignation internationale sur l'absence d'âge légal minimum dans certains pays.</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <div>
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <div>
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <div>
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="bg-[#3d3d42] max-sm:flex-col max-sm:gap-7 max-sm:items-center flex justify-around p-5">
         <div class="flex flex-col gap-4">
             <h1 class="text-[#f58a3c] font-extrabold">EXPLORE</h1>
             <nav class="flex flex-col gap-2 font-semibold text-amber-50">
-                <a class=""
-                    href="../../index.html">About Us</a>
-                <a class=""
-                    href="./parent.html">Parent Academy</a>
-                <a class=""
-                    href="./histoire.html">Beyond
+                <a class="" href="../../index.html">About Us</a>
+                <a class="" href="./parent.html">Parent Academy</a>
+                <a class="" href="./histoire.html">Beyond
                     Appearences</a>
-                <a class=""
-                    href="./experience.html">Your Story</a>
+                <a class="" href="./experience.html">Your Story</a>
             </nav>
         </div>
         <div class="flex flex-col gap-4 text-amber-50">
             <h1 class="text-[#f58a3c] font-extrabold">BESOIN D'AIDE</h1>
-            <div class="flex flex-col gap-2 font-semibold" >
+            <div class="flex flex-col gap-2 font-semibold">
                 <p class="text-2xl font-extrabold text-white">0800 00 11 22</p>
                 <p>ecoute@ellechoisit.ma</p>
                 <p>Gratuit.confidentiel.7j/7</p>
@@ -72,4 +227,5 @@
         </div>
     </footer>
 </body>
+
 </html>
